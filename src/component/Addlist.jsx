@@ -11,7 +11,7 @@ function Addlist(props){
 
     return(<div>
         <input onChange={handleChange} type="text" value={task} />
-        <button onClick={()=>{props.add(task); setTask("")}} type="submit">Submit</button>
+        <button onClick={()=>{props.add(task); setTask("")}} type="submit"><span>Submit</span></button>
     </div>
     );
 }
